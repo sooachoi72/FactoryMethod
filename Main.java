@@ -7,6 +7,8 @@ import ch04.license.LicenseCardFactory;
 
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("\n20240904 최수아 - Factory Method Pattern\n");
         // Step 1 테스트: IDCard 확장
         Factory factory1 = new IDCardFactory("2026-01-15");
         Product card1 = factory1.create("Kim Youngjin");
